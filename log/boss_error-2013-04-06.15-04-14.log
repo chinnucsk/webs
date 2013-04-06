@@ -1,0 +1,26 @@
+
+=INFO REPORT==== 6-Apr-2013::15:04:14 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 6-Apr-2013::15:04:14 ===
+Starting master services on webs@ubuntu
+
+=INFO REPORT==== 6-Apr-2013::15:04:14 ===
+SSL:[]
+
+=INFO REPORT==== 6-Apr-2013::15:04:14 ===
+Starting cowboy... on webs@ubuntu
+
+=INFO REPORT==== 6-Apr-2013::15:04:14 ===
+Starting http listener... on 8001 
+
+=ERROR REPORT==== 6-Apr-2013::15:04:15 ===
+** Boss Service Handler webs_websservice_websocket terminating in init/0
+   for the reason error:undef
+** Stacktrace: [{webs_websservice_websocket,init,[],[]},
+                {boss_service_worker,init,1,
+                    [{file,"src/boss/boss_service_worker.erl"},{line,65}]},
+                {gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},
+                {proc_lib,init_p_do_apply,3,
+                    [{file,"proc_lib.erl"},{line,227}]}]
+
